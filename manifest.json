@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "MicroPad",
+	"version": "1.0.1",
+	"description": "MicroPad is an open digital note taking app",
+	"icons": {
+		"48": "icon-48.png",
+		"128": "icon-128.png",
+		"512": "icon-512.png"
+	},
+	"app": {
+		"urls": [
+			"https://web.getmicropad.com/"
+		],
+		"launch": {
+			"web_url": "https://web.getmicropad.com/",
+			"container": "panel",
+			"width": 1100,
+			"height": 800
+		}
+	},
+	"permissions": [
+		"unlimitedStorage"
+	]
+}
